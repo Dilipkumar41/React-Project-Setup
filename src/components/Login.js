@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { loginApi } from "../api/mockApi";
-import { setSession, clearSession } from "../utils/session";
+import { setSession} from "../utils/session";
 import { generateCSRF, validateCSRF, sanitize } from "../utils/security";
 import { Link } from "react-router-dom";
 
